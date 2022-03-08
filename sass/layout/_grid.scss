@@ -5,17 +5,11 @@
 	margin: 0 auto;
 	margin-bottom: $gutter-vertical;
 
-	font-size: 2rem;
-	text-align: center;
-
 	&:last-child {
 		margin-bottom: 0;
 	}
 
 	[class^="col-"] {
-		background-color: dodgerblue;
-		color: $color-white;
-
 		float: left;
 		margin-right: $gutter-horizontal;
 

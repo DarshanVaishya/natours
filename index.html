@@ -15,6 +15,10 @@
 		<title>Natours | Exciting tours for adventurous people</title>
 	</head>
 	<body>
+		<div id="preloader">
+			<div id="spinner"></div>
+		</div>
+
 		<header class="header">
 			<div class="header__logo-box">
 				<img
@@ -104,4 +108,12 @@
 			</div>
 		</section> -->
 	</body>
+
+	<script>
+		const loader = document.querySelector("#preloader");
+
+		window.addEventListener("load", () => {
+			loader.style.display = "none";
+		});
+	</script>
 </html>

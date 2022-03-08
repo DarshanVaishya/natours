@@ -1,15 +1,15 @@
-@use "../abstracts";
+@use "../abstracts" as *;
 
 body {
 	font-family: "Lato", sans-serif;
 	font-weight: 400;
 	line-height: 1.7;
-	color: abstracts.$color-grey-dark;
+	color: $color-grey-dark;
 	padding: 3rem;
 }
 
 .heading-primary {
-	color: abstracts.$color-white;
+	color: $color-white;
 	text-transform: uppercase;
 
 	&--main {
